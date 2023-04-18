@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 3rem;
+    background-image: linear-gradient(to right, #362541, #312541, #2c2542, #272541, #212541);
+}
+.main__body{
+    width: 440px;
+    border-radius: 2rem;
+    border: 0.1px solid #4e4e4e;
+    background-color: #252525;
+    position: relative;
+    margin: auto;
+    filter:drop-shadow(5px 3px 16px #000)
+}
+
+.main__content{
+    height: 60rem;
+}
+
+.top__header{
+    width: 100%;
+    height: 6rem;
+    display: flex; 
+    flex-direction: row;   
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.header__profil__serch{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.header__profil{
+    width: 100%;
+    border: 2px solid rgb(131, 131, 131);
+    border-radius: 50%;
+    background-color: #fefefe;
+}
+.header__profil:hover{
+    cursor: pointer;
+}
+.profil__img{
+    height: 3.8rem;
+    width: 4.2rem;
+}
+.profil__img{
+    cursor: pointer;
+}
+.header__icon{
+    font-size: 1.8rem;
+    background-color: rgb(212, 212, 212);
+    color: rgb(77, 77, 77);
+    padding: 1rem 1.2rem;
+    border-radius: 50%;
+    width: 5rem;
+    
+}
+.header__title{
+    font-weight: bold;
+    color: #fefefe;
+}
+.header__add__dots{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+/**SEKTION**/
+.friends__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2.3rem;
+    border-bottom: 1px solid rgba(163, 163, 163, 0.247);
+    height: 7rem;
+}
+
+.friends__image__info{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    color: #f3f3f3;
+}
+.friends__name{
+    font-weight: 400;
+}
+
+.profiel__img{
+    height: 5.5rem;
+    border: 0.5px solid rgb(131, 131, 131);
+    border-radius: 50%;
+    background-color: #fefefe;
+}
+#ring-1,
+#ring-2,
+#ring-3,
+#ring-4{
+    border: 2px solid rgb(10, 163, 190) !important;
+}
+.profiel__img{
+    cursor: pointer;
+}
+.friends__send__info{
+    display: flex;
+    gap: 1rem;
+    color: #f3f3f3;
+}
+.friends__send__icon{
+    color: rgb(0, 102, 255);
+}
+.send__text, .time__text{
+    font-weight: 500;
+}
+.friends__cam{
+    height: 3rem;
+}
+.friends__cam:hover{
+    cursor: pointer;
+}
+.nav__bottom{
+    width: 100%;
+    height: 5.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #000;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.btn{
+    position: absolute;
+    padding: 1.5rem 2rem;
+    background-color:rgb(0, 102, 255);
+    font-size: 3rem;
+    border-radius: 50%;
+    bottom: 7rem;
+    right: 2rem;
+}
+.btn__icon{
+    color: #fefefe;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.nav__bottom a{
+    font-size: 2.7rem;
+    color: #cecece;
+}
+#active{
+    color: rgb(0, 102, 255);
+}
